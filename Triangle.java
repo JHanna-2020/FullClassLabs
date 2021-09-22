@@ -3,21 +3,24 @@
 //Name -
 //Date -
 
-import java.util.Scanner;
-import java.lang.Math.*;
-
 public class Triangle
 {
-	private int sideA, sideB, sideC;
-	private double perimeter;
+	public int sideA, sideB, sideC;
+	public double perimeter;
 
 	public Triangle(int a, int b, int c)
 	{
+		sideA = a;
+		sideB = b;
+		sideC = c;
+
 
 	}
 
-	public void calcPerimeter()
+	public double calcPerimeter()
 	{
+		perimeter = sideA + sideB +sideC;
+		return perimeter;
 
 	}
 

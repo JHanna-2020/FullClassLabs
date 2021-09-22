@@ -11,17 +11,18 @@ public class Dog
     age = 1;
     name = n;
   }
-  
-	public Dog( String n, int a )  
+	public Dog( int a,  String n )
 	{
-      n = name;
-      a = age;
+      age = a;
+      name = n;
+
+
 	}
   
   public int increaseAgeByOne()
   {
   	 //fill in this method
-    age++;
+    age= age+1;
     return age;
   }
   
@@ -32,14 +33,16 @@ public class Dog
   }
 	
   public int getAge()    {
+
     return age;
   }
 	
   public String getName()    {
+
     return name;
   }
 	
-  public String toString()    {
+  public String tester()    {
     return "Dog - " + name + " " + age;
   }
 }

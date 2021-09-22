@@ -22,7 +22,7 @@ public class TriangleRunner  //this class is used to test Triangle
 
 		Triangle test = new Triangle(a,b,c);
 		test.calcPerimeter();
-		System.out.println( test.getArea() );
+		System.out.println( test.calcPerimeter() );
 	}
 }
 
