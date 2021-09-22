@@ -26,6 +26,13 @@ public class Triangle
 
 	public double getArea( )
 	{
-		return 0;
+		double s = perimeter/2;
+		double side1 = s-sideA;
+		double side2 = s-sideB;
+		double side3 = s-sideC;
+
+		double result = Math.sqrt(s*side1*side2*side3);
+
+		return result ;
 	}
 }
